@@ -175,6 +175,9 @@ body {
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
+  max-width: 1440px;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .hero-title {
@@ -257,6 +260,7 @@ body {
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: #434455;
+  margin-bottom: 8px;
 }
 
 .about-us {
@@ -298,6 +302,9 @@ body {
   background: #f4f4fd;
   padding-bottom: 120px;
   padding-top: 120px;
+  max-width: 1440px;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .footers-text {
@@ -394,4 +401,78 @@ body {
   background-color: #f4f4fd;
   border-radius: 4px;
   margin-bottom: 8px;
+}
+.social-list {
+  display: flex;
+  justify-content: center;
+  column-gap: 24px;
+}
+
+.social-list-link {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  background-color: var(--logo-color);
+}
+
+.social-list-link:hover,
+.social-list-link:focus {
+  background-color: #404bbf;
+}
+
+.social-list-icon {
+  fill: #f4f4fd;
+}
+
+.customers-list {
+  display: flex;
+  justify-content: center;
+  gap: 24px;
+}
+
+.customers-list-link {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 168px;
+  height: 88px;
+  color: #8e8f99;
+  border: 1px solid #8e8f99;
+  border-radius: 4px;
+}
+
+.customers-section {
+  margin-top: 120px;
+  margin-bottom: 120px;
+}
+
+.customers-list-icon {
+  fill: currentColor;
+}
+
+.customers-list-link:hover,
+.customers-list-link:focus {
+  color: #404bbf;
+  border-color: #404bbf;
+}
+
+
+
+
+
+
+.social-text-footer {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5px;
+  letter-spacing: 0.02em;
+  color:#FFFFFF;
+}
+
+.social-footer {
+  display: flex;
+  align-items: baseline;
 }
