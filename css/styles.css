@@ -93,7 +93,11 @@ body {
   margin-left: auto;
   margin-right: auto;
   background-color: #2e2f42;
-  background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)), url(../images/people.office.jpg);
+  background-image: linear-gradient(
+      rgba(46, 47, 66, 0.7),
+      rgba(46, 47, 66, 0.7)
+    ),
+    url(../images/people-office.jpg);
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
@@ -177,7 +181,6 @@ body {
 .accent {
   color: var(--color-studio);
 }
-
 
 .hero-title {
   font-family: var(--main-font-family);
