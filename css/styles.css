@@ -176,7 +176,7 @@ body {
       rgba(46, 47, 66, 0.7),
       rgba(46, 47, 66, 0.7)
     ),
-    url('../images/hero/people.office.jpg');
+    url(../images/people.office.jpg);
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
@@ -414,7 +414,7 @@ body {
 .social-list {
   display: flex;
   justify-content: center;
-  gap: 24px;
+  gap: 16px;
 }
 
 .social-list-link {
@@ -434,7 +434,7 @@ body {
 
 .social-list-link:hover,
 .social-list-link:focus {
-  background-color: #404bbf;
+  background-color: #31d0aa;
 }
 
 .social-list-icon {
@@ -476,7 +476,7 @@ body {
 .social-text-footer {
   font-weight: 500;
   font-size: 16px;
-  line-height: 1.5px;
+  line-height: 1.5;
   letter-spacing: 0.02em;
   color: var(--page-background);
   margin-bottom: 16px;
