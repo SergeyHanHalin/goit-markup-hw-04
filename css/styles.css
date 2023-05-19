@@ -90,6 +90,16 @@ body {
   align-items: center;
   padding-top: 188px;
   padding-bottom: 188px;
+  background-color: #2e2f42;
+  background-image: linear-gradient(
+      rgba(46, 47, 66, 0.7),
+      rgba(46, 47, 66, 0.7)
+    ),
+    url(../images/people.office.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  max-width: 1440px;
 }
 
 .contacts-flex {
@@ -171,16 +181,6 @@ body {
 }
 
 .back-color-hero {
-  background-color: #2e2f42;
-  background-image: linear-gradient(
-      rgba(46, 47, 66, 0.7),
-      rgba(46, 47, 66, 0.7)
-    ),
-    url(../images/people.office.jpg);
-  background-repeat: no-repeat;
-  background-position: center;
-  background-size: cover;
-  max-width: 1440px;
   margin-left: auto;
   margin-right: auto;
 }
@@ -414,6 +414,12 @@ body {
 .social-list {
   display: flex;
   justify-content: center;
+  gap: 24px;
+}
+
+.social-list-footer {
+  display: flex;
+  justify-content: center;
   gap: 16px;
 }
 
@@ -434,6 +440,21 @@ body {
 
 .social-list-link:hover,
 .social-list-link:focus {
+  background-color: #404bbf;
+}
+
+.social-list-link-footer {
+  width: 100%;
+  height: 100%;
+  background-color: var(--logo-color);
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.social-list-link-footer:hover,
+.social-list-link-footer:focus {
   background-color: #31d0aa;
 }
 
